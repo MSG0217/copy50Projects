@@ -12,7 +12,7 @@ for(const empty of empties) {
 }
 
 function dragStart() {
-  this.className += 'hold';
+  this.className += ' hold';
   setTimeout(() => this.className = 'invisible', 0);
 }
 
@@ -26,7 +26,7 @@ function dragOver(e) {
 
 function dragEnter(e) {
   e.preventDefault();
-  this.className += 'hovered';
+  this.className += ' hovered';
 }
 
 function dragLeave() {
