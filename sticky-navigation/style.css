@@ -57,7 +57,7 @@ body {
   color: #000;
 }
 
-.nav.actove .container {
+.nav.active .container {
   padding: 10px 0;
 }
 
@@ -96,12 +96,12 @@ body {
 
 .hero h1 {
   font-size: 46px;
-  letter-spacing: 1px;
+  margin: -20px 0 20px;
 }
 
 .hero p {
   font-size: 20px;
-  leetter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .content h2,
