@@ -17,6 +17,10 @@ ratingsContainer.addEventListener('click', (e) => {
         removeActive();
         e.target.parentNode.classList.add('active');
         selectedRating = e.target.innerHTML;
+    } else {
+        removeActive();
+        e.target.classList.add('active');
+        selectedRating = e.target.querySelector('small').innerHTML;
     }
 
 })
